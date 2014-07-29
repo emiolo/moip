@@ -1,7 +1,9 @@
 <?php
 	
 namespace Moip;
-
+require_once 'Moip.php';
+require_once 'MoipEnvironment.php';
+require_once 'MoipResponse.php';
 /**
  * MoIP's API connection class
  *

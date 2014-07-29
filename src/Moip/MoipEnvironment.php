@@ -1,7 +1,9 @@
 <?php
 	
 namespace Moip;
-
+require_once 'MoipClient.php';
+require_once 'Moip.php';
+require_once 'MoipResponse.php';
 /**
  * Library to help PHP users of Moip's API
  *

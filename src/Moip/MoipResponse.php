@@ -1,7 +1,9 @@
 <?php
 
 namespace Moip;
-
+require_once 'MoipClient.php';
+require_once 'MoipEnvironment.php';
+require_once 'Moip.php';
 /**
  * Read-only response
  * @property boolean|string $response
